@@ -1,11 +1,16 @@
 import React from 'react'
-import './App.css'
+import 'semantic-ui-css/semantic.min.css'
+import { Container } from 'semantic-ui-react'
+
+import Header from './components/Header'
 
 const App = () => (
-  <div className="App">
-    <p>Welcome to TinDev</p>
-    <p>Team 4 ;) </p>
-    <p>test</p>
+  <div>
+    <Header />
+    <Container textAlign="center">
+      <h1>Welcome to TinDev</h1>
+      <p>Team 4 ;) </p>
+    </Container>
   </div>
 )
 
